@@ -1,5 +1,9 @@
-numbers = [1,2,3,4,9,16]
-b = []
-for i in numbers:
-    b.append(i**2)
-    print(b)
+i = 0
+str1 = 'javatpoint'
+
+while i < len(str1):
+    if str1[i] == 't':
+        i += 1
+        break
+    print('Current Letter :', str1[i])
+    i += 1  
